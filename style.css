@@ -1,0 +1,69 @@
+body {
+    width: 500px; 
+    height: 250px;
+  }
+
+
+#heading{
+    font-family: "PT Serif";
+    padding-left: 30px;
+    font-size: 13px;
+}
+
+#stickFigureContainer {
+    position: fixed;
+    bottom: -30px;
+    left: -30px;
+  }
+  
+  #stickFigure {
+    width: 150px; 
+    height: auto;
+  }
+  
+  #speechBubble {
+    position: fixed;
+    top: 60px;
+    right: 30px;
+    background-color: #ebf0ff;
+    border: 1px solid #000;
+    height: 100px;
+    width: 400px;
+    padding: 10px;
+    font-size: 12px;
+    font-family: "Courier New"
+  }
+
+  #Achoice{
+    position: fixed;
+    bottom: 25px;
+    right: 200px;
+    background-color: #FFADAD;
+    font-size: 20px;
+    font-family: "PT Serif";
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+  }
+
+  #Bchoice{
+    position: fixed;
+    bottom: 25px;
+    right: 80px;
+    background-color: #cae9a0;
+    font-size: 20px;
+    font-family: "PT Serif";
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+  }
